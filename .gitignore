@@ -1,0 +1,54 @@
+# --------------------------
+# Node & npm
+# --------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+# Descomente o abaixo se você usa Yarn ou PNPM
+# yarn.lock
+# pnpm-lock.yaml
+
+# --------------------------
+# Diretórios de build do Electron
+# --------------------------
+dist/
+out/
+build/
+release/
+app-release/
+app-builds/
+electron-out/
+*.asar
+
+# --------------------------
+# Arquivos temporários e cache
+# --------------------------
+.cache/
+.tmp/
+temp/
+*.log
+
+# --------------------------
+# Arquivos de ambiente
+# --------------------------
+.env
+.env.*
+
+# --------------------------
+# Diretórios e arquivos de editores/IDEs
+# --------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --------------------------
+# Sistema operacional
+# --------------------------
+.DS_Store
+Thumbs.db

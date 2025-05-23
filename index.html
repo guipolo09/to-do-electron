@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+<body>
+
+    <main>
+        <header>
+           <div>
+            <span class="column__title">Lista de Tarefas </span>
+           </div>
+           <div class="column__cards" id="limbo">
+            Limbo
+           </div>
+            
+        </header>
+
+        <section class="columns">
+            <section class="column">
+                <h2 class="column__title">TO DO</h2>
+                <section class="column__cards" data-coluna="TODO"></section>
+            </section>
+            
+            <section class="column">
+                <h2 class="column__title">IN PROGRESS</h2>
+                <section class="column__cards" data-coluna="IN_PROGRESS"></section>
+            </section>
+            
+            <section class="column">
+                <h2 class="column__title">TO REVIEW</h2>
+                <section class="column__cards" data-coluna="TO_REVIEW"></section>
+            </section>
+            
+            <section class="column">
+                <h2 class="column__title">DONE</h2>
+                <section class="column__cards" data-coluna="DONE"></section>
+            </section>
+            
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/62d61ea74e.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
